@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7771" started-at="2020-04-24T07:24:56Z" finished-at="2020-04-24T07:25:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7771" started-at="2020-04-24T07:24:56Z" finished-at="2020-04-24T07:25:03Z">
+      <class name="apiTestcases.AuthenticartionGettestcases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:apiTestcases.AuthenticartionGettestcases@3e6fa38a]" name="setUp" is-config="true" duration-ms="13" started-at="2020-04-24T07:24:56Z" finished-at="2020-04-24T07:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getMethodStatusCode(java.lang.String, java.lang.String)[pri:1, instance:apiTestcases.AuthenticartionGettestcases@3e6fa38a]" name="getMethodStatusCode" duration-ms="6848" started-at="2020-04-24T07:24:56Z" finished-at="2020-04-24T07:25:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fM3aZ4jMgCl_zwEJQxXgulsb178gctwlUIY0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/users? first_name=Shanker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodStatusCode -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:apiTestcases.AuthenticartionGettestcases@3e6fa38a]" name="setUp" is-config="true" duration-ms="1" started-at="2020-04-24T07:25:03Z" finished-at="2020-04-24T07:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getMethodResponseTime()[pri:2, instance:apiTestcases.AuthenticartionGettestcases@3e6fa38a]" name="getMethodResponseTime" duration-ms="11" started-at="2020-04-24T07:25:03Z" finished-at="2020-04-24T07:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodResponseTime -->
+        <test-method status="PASS" signature="getMethodValidateJsonData(java.lang.String)[pri:3, instance:apiTestcases.AuthenticartionGettestcases@3e6fa38a]" name="getMethodValidateJsonData" duration-ms="93" started-at="2020-04-24T07:25:03Z" finished-at="2020-04-24T07:25:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fault]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodValidateJsonData -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:apiTestcases.AuthenticartionGettestcases@3e6fa38a]" name="setUp" is-config="true" duration-ms="0" started-at="2020-04-24T07:25:03Z" finished-at="2020-04-24T07:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:apiTestcases.AuthenticartionGettestcases@3e6fa38a]" name="setUp" is-config="true" duration-ms="1" started-at="2020-04-24T07:25:03Z" finished-at="2020-04-24T07:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getMethodStatusCodeInvalid(java.lang.String, java.lang.String)[pri:4, instance:apiTestcases.AuthenticartionGettestcases@3e6fa38a]" name="getMethodStatusCodeInvalid" duration-ms="669" started-at="2020-04-24T07:25:03Z" finished-at="2020-04-24T07:25:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fM3aZ4jMgCl_zwEJQxXgulsb178gctwlUIY01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/users? first_name=Shanker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodStatusCodeInvalid -->
+        <test-method status="PASS" signature="getMethodValidateJsonDataForInvalid(java.lang.String)[pri:5, instance:apiTestcases.AuthenticartionGettestcases@3e6fa38a]" name="getMethodValidateJsonDataForInvalid" duration-ms="12" started-at="2020-04-24T07:25:03Z" finished-at="2020-04-24T07:25:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fault]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodValidateJsonDataForInvalid -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:apiTestcases.AuthenticartionGettestcases@3e6fa38a]" name="setUp" is-config="true" duration-ms="0" started-at="2020-04-24T07:25:03Z" finished-at="2020-04-24T07:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:apiTestcases.AuthenticartionGettestcases@3e6fa38a]" name="setUp" is-config="true" duration-ms="1" started-at="2020-04-24T07:25:03Z" finished-at="2020-04-24T07:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getMethodValidateHeaders()[pri:6, instance:apiTestcases.AuthenticartionGettestcases@3e6fa38a]" name="getMethodValidateHeaders" duration-ms="3" started-at="2020-04-24T07:25:03Z" finished-at="2020-04-24T07:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodValidateHeaders -->
+      </class> <!-- apiTestcases.AuthenticartionGettestcases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

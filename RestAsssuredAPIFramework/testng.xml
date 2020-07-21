@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="endUrl" value="4" />
+		<parameter name="putEndurl" value="2" />
+		<parameter name="authEndPoint" value="/users? first_name=Shanker" />
+		<parameter name="ValidAccessToken" value="fM3aZ4jMgCl_zwEJQxXgulsb178gctwlUIY0" />
+		<parameter name="InValidAccessToken" value="fM3aZ4jMgCl_zwEJQxXgulsb178gctwlUIY01" />
+		<parameter name="validDataFault" value="Fault" />
+		<parameter name="invalidDatafault" value="fault" />
+		<parameter name="getMethodPage" value="page" />
+		<parameter name="getMethodArrayData" value="last_name" />
+		<parameter name="uname" value="Advik" />
+		<parameter name="job" value="QA" />
+		<parameter name="putName" value="kirti" />
+		<parameter name="putJob" value="Manager" />
+		<classes>
+			<class name="apiTestcases.AuthenticartionGettestcases" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="getMethodPage" value="page"/>
+    <parameter name="endUrl" value="4"/>
+    <parameter name="getMethodArrayData" value="last_name"/>
+    <parameter name="putName" value="kirti"/>
+    <parameter name="ValidAccessToken" value="fM3aZ4jMgCl_zwEJQxXgulsb178gctwlUIY0"/>
+    <parameter name="uname" value="Advik"/>
+    <parameter name="putEndurl" value="2"/>
+    <parameter name="putJob" value="Manager"/>
+    <parameter name="validDataFault" value="Fault"/>
+    <parameter name="job" value="QA"/>
+    <parameter name="InValidAccessToken" value="fM3aZ4jMgCl_zwEJQxXgulsb178gctwlUIY01"/>
+    <parameter name="invalidDatafault" value="fault"/>
+    <classes>
+      <class name="apiTestcases.AuthenticartionGettestcases">
+        <methods>
+          <include name="getMethodValidateJsonData" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="getMethodStatusCode" invocation-numbers="0"/>
+          <include name="getMethodStatusCodeInvalid" invocation-numbers="0"/>
+          <include name="getMethodValidateJsonDataForInvalid" invocation-numbers="0"/>
+          <include name="getMethodResponseTime"/>
+          <include name="getMethodValidateHeaders"/>
+        </methods>
+      </class> <!-- apiTestcases.AuthenticartionGettestcases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
